@@ -1,0 +1,770 @@
+.musho-community-food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .frame .type-bubble-inverted {
+    position: absolute;
+    width: 1280px;
+    height: 67px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .bubble-container {
+    position: relative;
+    width: 1264px;
+    height: 51px;
+    top: 8px;
+    left: 8px;
+    background-color: #064e3b;
+    border-radius: 64px;
+  }
+  
+  .frame .nav-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 0px 16px;
+    position: relative;
+    top: 16px;
+    left: 1004px;
+  }
+  
+  .frame .nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .frame .nav-label {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #d1fae5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    white-space: nowrap;
+  }
+  
+  
+  .musho-community-food .type-full-size {
+    display: flex;
+    flex-wrap: wrap;
+    height: 834px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    z-index: 5;
+    background-color: #ecfdf5;
+  }
+  
+  .musho-community-food .heading-text {
+    position: absolute;
+    width: 1036px;
+    height: 521px;
+    top: 158px;
+    left: 140px;
+    z-index: 1;
+  }
+  
+  .musho-community-food .overlap-group {
+    position: relative;
+    width: 843px;
+    height: 464px;
+    top: 94px;
+    left: 110px;
+  }
+  
+  .musho-community-food .heading {
+    position: absolute;
+    width: 843px;
+    top: 0;
+    left: 0;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 97px;
+    text-align: center;
+    letter-spacing: -1.94px;
+    line-height: 116.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .musho-community-food .subheading {
+    position: absolute;
+    width: 592px;
+    top: 232px;
+    left: 101px;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 31.2px;
+  }
+  
+  .musho-community-food .copy-container {
+    width: 640px;
+    height: 297px;
+    gap: 10px;
+    padding: 120px 24px;
+    position: absolute;
+    top: 167px;
+    left: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .musho-community-food .copy-component {
+    max-width: 720px;
+    width: 592px;
+    gap: 40px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .musho-community-food .CTA-button {
+    display: flex;
+    max-width: 360px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #65a30d;
+    border-radius: 8px;
+  }
+  
+  .musho-community-food .text-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 4px;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .musho-community-food .CTA {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ecfdf5;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    white-space: nowrap;
+  }
+  
+  .musho-community-food .element {
+    position: relative;
+    width: 1252px;
+    height: 834px;
+    z-index: 0;
+    object-fit: cover;
+  }
+  
+  .musho-community-food .type-big-statement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 144px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 4;
+    background-color: #ecfdf5;
+  }
+  
+  .musho-community-food .text-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    align-items: flex-start;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .musho-community-food .benefit-heading {
+    color: #65a30d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+  }
+  
+  .musho-community-food .text-wrapper {
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #064e3b;
+    font-size: 51px;
+    text-align: center;
+    letter-spacing: -1.02px;
+    line-height: 61.2px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .type-stacked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 160px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 3;
+    background-color: #ecfdf5;
+  }
+  
+  .musho-community-food .div {
+    display: flex;
+    align-self: stretch;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .heading-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .benefit-title {
+    color: #064e3b;
+    font-size: 51px;
+    text-align: center;
+    letter-spacing: -1.02px;
+    line-height: 61.2px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+  }
+  
+  .musho-community-food .p {
+    font-family: "Inter", Helvetica;
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #059669;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .musho-community-food .image-container {
+    display: flex;
+    min-width: 320px;
+    max-width: 800px;
+    height: 489px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    border-radius: 32px;
+    overflow: hidden;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .image-lummi {
+    flex: 1;
+    flex-grow: 1;
+    object-fit: cover;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .property {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    height: 638px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    background-color: #ecfdf5;
+  }
+  
+  .musho-community-food .heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 56px 16px;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -10.5px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .heading-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .copy-component-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 272px;
+    max-width: 720px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .musho-community-food .heading-text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .how-it-works-heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 900;
+    color: #064e3b;
+    font-size: 38px;
+    letter-spacing: -0.76px;
+    line-height: 44.8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .musho-community-food .how-it-works {
+    position: relative;
+    align-self: stretch;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 400;
+    color: #059669;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+  }
+  
+  .musho-community-food .text-container-wrapper {
+    display: inline-flex;
+    max-width: 360px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #34d399;
+  }
+  
+  .musho-community-food .how-it-works-CTA {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 700;
+    color: #064e3b;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .musho-community-food .image-lummi-2 {
+    position: relative;
+    flex: 1;
+    min-width: 272px;
+    flex-grow: 1;
+    height: 320px;
+    background-color: #b3b3b3;
+    border-radius: 16px;
+    opacity: 0.1;
+  }
+  
+  .musho-community-food .steps-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1275px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 40px;
+    padding: 56px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -10.5px;
+    background-color: #dcfce7;
+  }
+  
+  .musho-community-food .how-it-works-grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 68px 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .step {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 240px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .musho-community-food .img {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .musho-community-food .feature-title {
+    position: relative;
+    align-self: stretch;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 700;
+    color: #064e3b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  
+  .musho-community-food .step-description {
+    position: relative;
+    align-self: stretch;
+    font-family: "Merriweather", Helvetica;
+    font-weight: 400;
+    color: #059669;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .musho-community-food .type-simple-CTA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 96px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 1;
+    background-color: #ecfdf5;
+  }
+  
+  .musho-community-food .container {
+    display: flex;
+    flex-direction: column;
+    width: 763px;
+    height: 225px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .musho-community-food .text-content-2 {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: -19.5px;
+    margin-right: -19.5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .copy {
+    display: flex;
+    flex-direction: column;
+    width: 802px;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .heading-2 {
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #064e3b;
+    font-size: 67px;
+    text-align: center;
+    letter-spacing: -1.34px;
+    line-height: 69.7px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .musho-community-food .subheading-2 {
+    margin-top: -1px;
+    font-family: "Merriweather", Helvetica;
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #059669;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .musho-community-food .button-combo {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #65a30d;
+    border-radius: 8px;
+  }
+  
+  .musho-community-food .CTA-2 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ecfdf5;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .musho-community-food .type-mega-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 64px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 0;
+    background-color: #ecfdf5;
+  }
+  
+  .musho-community-food .content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 397px 56px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .musho-community-food .frame {
+    display: flex;
+    flex-direction: column;
+    min-width: 248px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .musho-community-food .brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .musho-community-food .brand-name {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #064e3b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .musho-community-food .brand-name-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #064e3b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    white-space: nowrap;
+  }
+  
+  .musho-community-food .links {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 280px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 40px 40px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .musho-community-food .list {
+    display: flex;
+    flex-direction: column;
+    min-width: 108px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .musho-community-food .list-heading {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #064e3b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .musho-community-food .list-link-item {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #064e3b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  

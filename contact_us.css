@@ -186,7 +186,5 @@ input::placeholder{
   background-color: #064e3b;
 }
 #footer{
-  color: white;
-  text-align: center;
-  padding-top: 12px;
+  color: white;text-align: center;padding-top: 12px;
 }

@@ -1,0 +1,556 @@
+.steps-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.steps-page .main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 208px 16px 168px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  z-index: 3;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.steps-page .overlay {
+  position: absolute;
+  width: 100%;
+  height: 491px;
+  top: 0;
+  left: 0;
+  background-color: #064e3b;
+  opacity: 0.6;
+}
+
+.steps-page .div {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.steps-page .heading-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+}
+
+.steps-page .heading {
+padding-left: 50%;
+    width: max-content;
+
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 700;
+  color: #ecfdf5;
+  font-size: 67px;
+  text-align: center;
+  letter-spacing: -1.34px;
+  line-height: 69.7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  position: relative;
+  align-self: stretch;
+}
+
+.steps-page .subheading {
+  color: #d1fae5;
+  font-size: 22px;
+  text-align: center;
+  line-height: 28.6px;
+  position: relative;
+  align-self: stretch;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.steps-page .box {
+  position: absolute;
+  width: 1280px;
+  height: 67px;
+  top: 0;
+  left: 0;
+}
+
+.steps-page .box-container {
+  position: relative;
+  width: 1264px;
+  height: 51px;
+  top: 8px;
+  left: 10%;
+  background-color: #064e3b;
+  border-radius: 64px;
+}
+
+.steps-page .nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 16px;
+  position: relative;
+  top: 16px;
+  left: 1004px;
+}
+
+.steps-page .nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 8px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+}
+
+.steps-page .nav-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #d1fae5;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  white-space: nowrap;
+}
+
+.steps-page .reduction-step {
+
+    position: absolute;
+    
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-bottom:3%;
+
+    top: 25%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+    position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  z-index: 2;
+  background-color: #dcfce7;
+}
+
+.steps-page .content {
+  flex-direction: column;
+  max-width: 1024px;
+  align-items: flex-start;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.steps-page .how-it-works-heading-wrapper {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.steps-page .how-it-works-heading {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 700;
+  color: #064e3b;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 44.8px;
+}
+
+.steps-page .grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.steps-page .step {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  max-width: 400px;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.steps-page .number {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  background-color: #064e3b;
+  border-radius: 24px;
+}
+
+.steps-page .step-title {
+  position: relative;
+  width: fit-content;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 600;
+  color: #d1fae5;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.steps-page .text-wrapper {
+  font-weight: 600;
+  color: #064e3b;
+  font-size: 18px;
+  line-height: 25.2px;
+  -webkit-line-clamp: 1;
+  position: relative;
+  align-self: stretch;
+  font-family: "Work Sans", Helvetica;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.steps-page .text-wrapper-2 {
+  font-weight: 400;
+  color: #059669;
+  font-size: 14px;
+  line-height: 21px;
+  -webkit-line-clamp: 3;
+  position: relative;
+  align-self: stretch;
+  font-family: "Work Sans", Helvetica;
+  letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.steps-page .mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 160px 150px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  z-index: 1;
+  background-color: #ecfdf5;
+}
+
+.steps-page .heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+}
+
+.steps-page .heading-2 {
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 700;
+  color: #064e3b;
+  font-size: 51px;
+  text-align: center;
+  letter-spacing: -1.02px;
+  line-height: 61.2px;
+  position: relative;
+  align-self: stretch;
+}
+
+.steps-page .subheading-2 {
+  color: #059669;
+  font-size: 14px;
+  text-align: center;
+  line-height: 21px;
+  position: relative;
+  align-self: stretch;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.steps-page .content-2 {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.steps-page .feature-list {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 1200px;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.steps-page .feature {
+  display: flex;
+  min-width: 88px;
+  max-width: 400px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.steps-page .icon-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.steps-page .feature-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.steps-page .feature-title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 600;
+  color: #064e3b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.steps-page .image {
+      position: absolute;
+    left: 61%;
+  width: 359px;
+  height: 683px;
+  position: relative;
+  object-fit: cover;
+}
+
+.steps-page .circulat-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 120px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  z-index: 0;
+  background-color: #ecfdf5;
+}
+
+.steps-page .container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.steps-page .img-box {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  max-height: 520px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.steps-page .img {
+  width: 637px;
+  height: 371px;
+  position: relative;
+  object-fit: cover;
+}
+
+.steps-page .copy-component {
+  display: flex;
+  flex-direction: column;
+  min-width: 304px;
+  max-width: 524px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ecfdf5;
+  border-radius: 16px;
+}
+
+.steps-page .heading-text-2 {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.steps-page .heading-3 {
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 700;
+  color: #064e3b;
+  font-size: 51px;
+  letter-spacing: -1.02px;
+  line-height: 61.2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  position: relative;
+  align-self: stretch;
+}
+
+.steps-page .subheading-3 {
+  color: #059669;
+  font-size: 18px;
+  line-height: 25.2px;
+  position: relative;
+  align-self: stretch;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.steps-page .action-button {
+  display: flex;
+  max-width: 360px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 16px 48px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #65a30d;
+  border-radius: 4px;
+}
+
+.steps-page .text-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.steps-page .CTA {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 600;
+  color: #ecfdf5;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
