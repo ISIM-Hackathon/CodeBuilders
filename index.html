@@ -1,21 +1,354 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "stylesheet" href="index.css">
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-</head>
-<body>
-    <div id = "form">
-    <form class="form" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="fca9e35f-b163-4810-abc4-0abc0cb537d2">
-        <h1 id="heading1">Contact Us</h1>
-        <input type="text" id = "name" name="name" placeholder="Full Name"><hr><br>
-        <input type="email" id = "email" name = "email" placeholder="Email"><hr><br>
-        <textarea id = "textarea" placeholder="Message"></textarea><hr><br>
-        <button id = "button">Submit</button>
-    </form>
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="musho-communityfoodsharing-container" >
+        <div class="musho-communityfoodsharing-musho-communityfoodsharing">
+          <div class="musho-communityfoodsharing-type-bubble-inverted">
+            <div class="musho-communityfoodsharing-bubble-container">
+          <div class="nav-links">
+              <div class="nav-link"><div class="nav-label">Contact Us</div></div>
+              <div class="nav-link"><div class="nav-label">Join Us</div></div>
+              <div class="nav-link"><div class="nav-label">Donate</div></div>
+            </div>   
+
+
+
+
+            </div>
+          </div>
+        <div class="container">
+          
+          <div class="musho-communityfoodsharing-type-full-size-circle" 
+">
+            <div class="musho-communityfoodsharing-heading-text" style="
+    width: 1450px;
+    height: 701px;
+">
+              <span class="musho-communityfoodsharing-text06" style="
+    position: absolute;
+    width: 1000px;
+    left: 18%;
+">
+                <span>Feed The People, Not Landfills</span>
+              </span>
+              <span class="musho-communityfoodsharing-text08"style="
+    position: absolute;
+    width: max-content;
+    left: 53%;
+">
+                <span>Donate Food, Nourish Lives, and Fight Hunger!</span>
+              </span>
+              <div class="musho-communityfoodsharing-copy-container">
+                <div class="musho-communityfoodsharing-copy-component" style="
+    position: absolute;
+    left: 37%;
+">
+                  <button class="musho-communityfoodsharing-cta-button" onclick="location.href='https://formfacade.com/sm/-EKU39NC_';">
+                    <div class="musho-communityfoodsharing-text-container">
+                      <span class="musho-communityfoodsharing-text10">
+                        <span>Donate Now</span>
+                      </span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          
+        </div>
+          <div class="musho-communityfoodsharing-type-big-statement" style="
+    padding: 150px;
+">
+            <div class="musho-communityfoodsharing-text-content">
+              <span class="musho-communityfoodsharing-text12">
+                <span>Our Purpose</span>
+              </span>
+              <span class="musho-communityfoodsharing-text14">
+                <span>
+                  We aim to eliminate hunger and food wastage by efficiently
+                  connecting food donors with local NGOs and those in need.
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="musho-communityfoodsharing-type-stacked">
+            <div class="musho-communityfoodsharing-text-content1">
+              <div class="musho-communityfoodsharing-heading-container">
+                <span class="musho-communityfoodsharing-text16">
+                  <span>Community Impact</span>
+                </span>
+                <span class="musho-communityfoodsharing-text18">
+                  <span>
+                    Saving Food, Feeding Families &amp; Strengthening Bonds
+                  </span>
+                </span>
+              </div>
+              <div class="musho-communityfoodsharing-image-container">
+                <img
+                  src="public/external/secondpic1183-30u-600h.png"
+                  alt="secondpic1183"
+                  class="musho-communityfoodsharing-secondpic1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="musho-communityfoodsharing-property1-comprehensive">
+            <div class="musho-communityfoodsharing-heading-wrapper">
+              <div class="musho-communityfoodsharing-heading-container1">
+                <div class="musho-communityfoodsharing-copy-component1">
+                  <div class="musho-communityfoodsharing-heading-text1">
+                    <span class="musho-communityfoodsharing-text20">
+                      <span>How You Can Help</span>
+                    </span>
+                    <span class="musho-communityfoodsharing-text22">
+                      <span>Connecting donors with those in need.</span>
+                    </span>
+                  </div>
+                  <button class="musho-communityfoodsharing-cta-button1">
+                    <div class="musho-communityfoodsharing-text-container1">
+                      <span class="musho-communityfoodsharing-text24">
+                        <span>Get Involved</span>
+                      </span>
+                    </div>
+                  </button>
+                </div>
+                <div class="musho-communityfoodsharing-imagelummi">
+                  <img
+                    src="public/external/image163scaled1184-ysrq-500h.png"
+                    alt="IMAGE163scaled1184"
+                    class="musho-communityfoodsharing-image163scaled1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="musho-communityfoodsharing-steps-wrapper">
+              <div class="musho-communityfoodsharing-howit-works-grid">
+                <div class="musho-communityfoodsharing-step">
+                  <img
+                    src="public/external/iconicon221-97n.svg"
+                    alt="Iconicon221"
+                    class="musho-communityfoodsharing-iconicon"
+                  />
+                  <span class="musho-communityfoodsharing-text26">
+                    <span>Volunteer Network</span>
+                  </span>
+                  <span class="musho-communityfoodsharing-text28">
+                    <span>Join forces with our dedicated volunteers.</span>
+                  </span>
+                </div>
+                <div class="musho-communityfoodsharing-step1">
+                  <img
+                    src="public/external/iconicon226-vzl.svg"
+                    alt="Iconicon226"
+                    class="musho-communityfoodsharing-iconicon1"
+                  />
+                  <span class="musho-communityfoodsharing-text30">
+                    <span>Community Support</span>
+                  </span>
+                  <span class="musho-communityfoodsharing-text32">
+                    <span>Your efforts create waves of change.</span>
+                  </span>
+                </div>
+                <div class="musho-communityfoodsharing-step2">
+                  <img
+                    src="public/external/iconicon231-cpxu.svg"
+                    alt="Iconicon231"
+                    class="musho-communityfoodsharing-iconicon2"
+                  />
+                  <span class="musho-communityfoodsharing-text34">
+                    <span>Sustainable Practices</span>
+                  </span>
+                  <span class="musho-communityfoodsharing-text36">
+                    <span>Reducing waste with mindful distribution.</span>
+                  </span>
+                </div>
+                <div class="musho-communityfoodsharing-step3">
+                  <img
+                    src="public/external/epfood240-wnc.svg"
+                    alt="epfood240"
+                    class="musho-communityfoodsharing-epfood"
+                  />
+                  <span class="musho-communityfoodsharing-text38">
+                    <span>Food Collection</span>
+                  </span>
+                  <span class="musho-communityfoodsharing-text40">
+                    <span>
+                      Organize local drives to collect food for donation to
+                      those in need.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="musho-communityfoodsharing-type-simple-cta">
+            <div class="musho-communityfoodsharing-container1">
+              <div class="musho-communityfoodsharing-text-content2">
+                <div class="musho-communityfoodsharing-copy">
+                  <span class="musho-communityfoodsharing-text42">
+                    <span>Start Making a Change</span>
+                  </span>
+                </div>
+                <div class="musho-communityfoodsharing-heading-text2">
+                  <span class="musho-communityfoodsharing-text44">
+                    <span>Your actions can make a real difference.</span>
+                  </span>
+                </div>
+                <button
+                  class="musho-communityfoodsharing-button-combo"
+                ></button>
+                <button class="musho-communityfoodsharing-button">
+                  <div class="musho-communityfoodsharing-text-container2">
+                    <span class="musho-communityfoodsharing-text46">
+                      <span>Join The Movement</span>
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>

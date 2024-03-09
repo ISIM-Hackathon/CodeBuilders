@@ -1,100 +1,1114 @@
-body{
-    background-color: #ecfdf5;
+.nav-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 7px;
+  position: relative;
+  top: 0px;
+  left: 995px;
 }
-.form{
-    border-radius: 10px;
-    font-family: Roboto, sans-serif;
-    color: #ffffff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 8px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
 }
-#heading1{
-    border-radius: 10px;
-    background-color: #064e3b;
-    text-align: center;
-    color: rgb(255, 255, 255);
+
+.nav-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #d1fae5;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  white-space: nowrap;
 }
-#heading1:hover{
-    transition: all 0.1s;
-    font-size: 35px;
-    color: rgb(221, 221, 221);
+
+
+
+.container {
+  position: relative;
+  }
+.musho-communityfoodsharing-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
 }
-#form{
-    border-radius: 10px;
-    margin-top:100px;
-    margin-left: 35%;
-    background-color:rgb(255, 255, 255);
-    width: 400px;
+.musho-communityfoodsharing-musho-communityfoodsharing {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
 }
-/*
-#name_label{
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #000000;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
+.musho-communityfoodsharing-type-bubble-inverted {
+  gap: 100px;
+  width: 1280px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
 }
-*/
-hr{
-    width: 300px;
-    margin-left: 30px;
-    color: gray;
-    filter: opacity(20%);
+.musho-communityfoodsharing-bubble-container {
+  gap: 58px;
+  width: 1264px;
+  display: flex;
+  padding: 16px 8px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 64px;
+  justify-content: space-between;
+  background-color: rgba(6, 78, 59, 1);
 }
-#name{
-    border: none;
-    background-color:rgb(255, 255, 255);
-    padding-left: 30px;
+.musho-communityfoodsharing-nav-links {
+  gap: 16px;
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: center;
 }
-input:focus{
-    outline: none;
+.musho-communityfoodsharing-nav-link {
+  gap: 8px;
+  display: flex;
+  padding: 0 8px;
+  align-self: stretch;
+  align-items: center;
 }
-textarea{
-    outline: none;
+.musho-communityfoodsharing-text {
+  color: rgba(209, 250, 229, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
 }
-textarea::placeholder{
-    filter: opacity(70%);
+.musho-communityfoodsharing-nav-link1 {
+  gap: 8px;
+  display: flex;
+  padding: 0 8px;
+  align-self: stretch;
+  align-items: center;
 }
-textarea:hover::placeholder{
-    transition: all 0.1s;
-    filter:opacity(100%);
-    font-size: 15px;
+.musho-communityfoodsharing-text02 {
+  color: rgba(209, 250, 229, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
 }
-input::placeholder:hover{
-    transition: all 0.1s;
-filter: opacity(100%);
+.musho-communityfoodsharing-nav-link2 {
+  gap: 8px;
+  display: flex;
+  padding: 0 8px;
+  align-self: stretch;
+  align-items: center;
 }
-input:hover::placeholder{
-    transition: all 0.1s;
-    font-size:15px;
-    filter: opacity(100%); 
+.musho-communityfoodsharing-text04 {
+  color: rgba(209, 250, 229, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
 }
-input::placeholder{
-    filter: opacity(70%);
+
+
+
+
+.musho-communityfoodsharing-type-full-size-circle {
+  display: flex;
+  z-index: 1;
+  position: relative;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-image: url('image169576651167011267-35ve-900h.png');
+  background-size: cover; /* Adjust this as needed */
+  background-position: center; 
 }
-#email{
-    border: none;
-    background-color:rgb(255, 255, 255);
-    padding-left: 30px;
+
+.musho-communityfoodsharing-heading-text {
+  position: relative;
 }
-#textarea{
-    border: none;
-    background-color:rgb(255, 255, 255);
-    padding-left: 30px;
+
+.musho-communityfoodsharing-text06,
+.musho-communityfoodsharing-text08,
+.musho-communityfoodsharing-copy-container,
+.musho-communityfoodsharing-cta-button {
+  position: absolute;
 }
-#button{
-    border: none;
-    border-radius: 10px;
-    padding: 7px;
-    margin-left: 40%;
-    margin-bottom: 20px;
+
+.musho-communityfoodsharing-text06 {
+  top: 0;
+  left: 0;
 }
-#button:hover{
-    padding:10px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: rgb(221, 221, 221);
-    
+
+.musho-communityfoodsharing-text08 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.musho-communityfoodsharing-copy-container {
+  bottom: 0;
+  right: 0;
+}
+
+.musho-communityfoodsharing-cta-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.musho-communityfoodsharing-heading-text {
+  gap: 16px;
+  width: 1036px;
+  height: 521px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text06 {
+  top: 95px;
+  left: 110px;
+  color: rgba(255, 255, 255, 1);
+  width: 843px;
+  height: auto;
+  position: absolute;
+  font-size: 97px;
+  align-self: stretch;
+  font-style: Black;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 900;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text08 {
+  top: 327px;
+  left: 211px;
+  color: rgba(255, 255, 255, 1);
+  width: 592px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-copy-container {
+  gap: 10px;
+  top: 261px;
+  left: 198px;
+  width: 640px;
+  height: 297px;
+  display: flex;
+  padding: 120px 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-copy-component {
+  gap: 40px;
+  width: 592px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-cta-button {
+  gap: 4px;
+  display: flex;
+  padding: 16px 48px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(101, 163, 13, 1);
+}
+.musho-communityfoodsharing-text-container {
+  gap: 8px;
+  display: flex;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text10 {
+  color: rgba(236, 253, 245, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-image169576651167011 {
+  width: 1252px;
+  height: 834px;
+  z-index: 1;
+}
+.musho-communityfoodsharing-type-big-statement {
+  padding:150px;
+  gap: 48px;
+  display: flex;
+  padding: 144px 16px;
+  z-index: 2;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(236, 253, 245, 1);
+}
+.musho-communityfoodsharing-text-content {
+  gap: 8px;
+  width: 1024px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text12 {
+  color: rgba(101, 163, 13, 1);
+  height: auto;
+  font-size: 28px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text14 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 51px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-type-stacked {
+  gap: 32px;
+  display: flex;
+  padding: 160px 16px;
+  z-index: 3;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(236, 253, 245, 1);
+}
+.musho-communityfoodsharing-text-content1 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-heading-container {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text16 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 51px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text18 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-image-container {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 32px;
+  justify-content: center;
+}
+.musho-communityfoodsharing-secondpic1 {
+  width: 810px;
+  height: 536px;
+}
+.musho-communityfoodsharing-property1-comprehensive {
+  width: 1280px;
+  height: 638px;
+  display: flex;
+  z-index: 4;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(236, 253, 245, 1);
+}
+.musho-communityfoodsharing-heading-wrapper {
+  gap: 40px;
+  display: flex;
+  padding: 56px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-heading-container1 {
+  gap: 40px;
+  width: 1200px;
+  height: 320px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.musho-communityfoodsharing-copy-component1 {
+  gap: 40px;
+  top: 70.5px;
+  left: 0px;
+  width: 580px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-heading-text1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text20 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 38px;
+  align-self: stretch;
+  font-style: Black;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 900;
+  line-height: 117.99999475479126%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text22 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-cta-button1 {
+  gap: 4px;
+  display: flex;
+  padding: 16px 40px;
+  align-items: center;
+  border-color: rgba(52, 211, 153, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text-container1 {
+  gap: 8px;
+  display: flex;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text24 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-imagelummi {
+  gap: 74px;
+  top: 0.5px;
+  left: 620px;
+  width: 592px;
+  height: 320px;
+  display: flex;
+  padding: 48px 0;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  justify-content: center;
+}
+.musho-communityfoodsharing-image163scaled1 {
+  top: -53px;
+  left: -39px;
+  width: 631px;
+  height: 414px;
+  position: absolute;
+}
+.musho-communityfoodsharing-steps-wrapper {
+  gap: 40px;
+  width: 1275px;
+  display: flex;
+  padding: 56px 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(220, 252, 231, 1);
+}
+.musho-communityfoodsharing-howit-works-grid {
+  gap: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.musho-communityfoodsharing-step {
+  gap: 8px;
+  width: 240px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-iconicon {
+  width: 32px;
+  height: 32px;
+}
+.musho-communityfoodsharing-text26 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text28 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-step1 {
+  gap: 8px;
+  width: 240px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-iconicon1 {
+  width: 32px;
+  height: 32px;
+}
+.musho-communityfoodsharing-text30 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text32 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-step2 {
+  gap: 8px;
+  width: 240px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-iconicon2 {
+  width: 32px;
+  height: 32px;
+}
+.musho-communityfoodsharing-text34 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text36 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-step3 {
+  gap: 8px;
+  width: 240px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-epfood {
+  width: 32px;
+  height: 32px;
+}
+.musho-communityfoodsharing-text38 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text40 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-type-simple-cta {
+  gap: 48px;
+  display: flex;
+  padding: 96px 16px;
+  z-index: 5;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(236, 253, 245, 1);
+}
+.musho-communityfoodsharing-container1 {
+  gap: 40px;
+  width: 763px;
+  height: 225px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text-content2 {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-copy {
+  gap: 12px;
+  width: 802px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text42 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 67px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 103.99999618530273%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-heading-text2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text44 {
+  color: rgba(5, 150, 105, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-button-combo {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.musho-communityfoodsharing-button {
+  gap: 4px;
+  display: flex;
+  padding: 16px 40px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(101, 163, 13, 1);
+}
+.musho-communityfoodsharing-text-container2 {
+  gap: 8px;
+  display: flex;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+}
+.musho-communityfoodsharing-text46 {
+  color: rgba(236, 253, 245, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-type-mega-menu {
+  gap: 16px;
+  display: flex;
+  padding: 64px 32px;
+  z-index: 6;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(236, 253, 245, 1);
+}
+.musho-communityfoodsharing-content {
+  gap: 397px;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.musho-communityfoodsharing-frame17 {
+  gap: 24px;
+  width: 600px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-brand {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.musho-communityfoodsharing-icon {
+  width: 32px;
+  height: 32px;
+}
+.musho-communityfoodsharing-text48 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text50 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-links {
+  gap: 40px;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.musho-communityfoodsharing-list {
+  gap: 16px;
+  width: 120px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text52 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text54 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text56 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text58 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-list1 {
+  gap: 16px;
+  width: 120px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text60 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text62 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text64 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text66 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-list2 {
+  gap: 16px;
+  width: 120px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text68 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text70 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text72 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text74 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-list3 {
+  gap: 16px;
+  width: 120px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.musho-communityfoodsharing-text76 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text78 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.musho-communityfoodsharing-text80 {
+  color: rgba(6, 78, 59, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
 }
